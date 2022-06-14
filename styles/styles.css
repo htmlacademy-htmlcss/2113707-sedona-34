@@ -1,0 +1,355 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.button {
+  font-family: inherit;
+  text-align: center;
+  border: none;
+  color:#000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Шапка - index, catalog */
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.navigation-button {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #756157;
+}
+
+/* Приветственное изображение SEDONA - index */
+
+.main-index {
+  color:#000000;
+  background-color:#ffffff;
+  background-image: url("../images/index/background-welcome.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.welcome-hero-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.welcome-hero-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* Сектор "Преимущества" - index */
+
+.advantage-true-city,
+.advantage-devils-bridge {
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.advantage-true-city-title,
+.advantage-devils-bridge-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.advantages-accommodation-food-souvenir,
+.advantages-square-road-tourists {
+  font-weight: 400;
+  text-align: center;
+}
+
+.advantages-accommodation-food-souvenir-title,
+.advantages-square-road-tourists-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.advantages-accommodation-food-souvenir-item:nth-child(2) {
+  background-color:#ffffff;
+}
+
+.advantages-accommodation-food-souvenir-item:first-child,
+.advantages-accommodation-food-souvenir-item:last-child,
+.advantages-square-road-tourists-item:first-child,
+.advantages-square-road-tourists-item:last-child {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-square-road-tourists-item:nth-child(2){
+  background-color:rgba(131, 179, 211, 0.2);
+}
+
+/* Сектор "Поиск гостиниц в седоне" - index */
+
+.accommodation-search {
+  text-align: center;
+}
+
+.accommodation-search-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.accommodation-search-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.accommodation-search-button {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #756157;
+}
+
+/* Сектор "подписка" - index */
+
+.subscription {
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  background-image: url("../images/index/background-index.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.subscription-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.subscription-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.newsletter-button {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.field {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  background-color: #F2F2F2;
+  border: none;
+}
+
+/* Футтер - index, catalog*/
+
+.footer-contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.social-icons {
+  text-decoration-line: none;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/* Секция с фильтрами - catalog */
+
+.filters-section {
+  color:#ffffff;
+  background-color:#000000;
+  background-image: url("../images/catalog/background-catalog.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+}
+
+/* Хлебные крошки -catalog */
+
+.breadcrumbs-link {
+  color: inherit;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.catalog-filter-title {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.control-input {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.accept-button,
+.accomodation-card-favorites-button {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.reset-button {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #000000;
+  text-transform: none;
+}
+
+.catalog-actual-filtration-quantity {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.select-control {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+/* Секция с гостиницами - catalog */
+
+.accommodation-card-link {
+  text-decoration-line: none;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.accomodation-card-favorites-button-selected {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #7DB54F;
+  text-align: center;
+}
+
+.accommodation-card-button {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #756157;
+  text-align: center;
+}
+
+.accommodation-actual-rating {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #F2F2F2;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Паггинация под гостиницами - catalog */
+
+.pagination-link {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-align: center;
+  text-decoration: none;
+}
+
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+/* Секция подписки - catalog */
+
+.subscription-catalog {
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.subscription-title-catalog {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.subscription-subtitle-catalog {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+}
