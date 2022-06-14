@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/ptsans-400.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("/fonts/ptsans-700.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -79,26 +79,30 @@ body {
 
 /* Сектор "Преимущества" - index */
 
-.advantage-true-city, .advantage-devils-bridge {
+.advantage-true-city,
+.advantage-devils-bridge {
   font-weight: 400;
   text-align: center;
   color: #ffffff;
   background-color: #82B3D3;
 }
 
-.advantage-true-city-title, .advantage-devils-bridge-title {
+.advantage-true-city-title,
+.advantage-devils-bridge-title {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.advantages-accommodation-food-souvenir, .advantages-square-road-tourists {
+.advantages-accommodation-food-souvenir,
+.advantages-square-road-tourists {
   font-weight: 400;
   text-align: center;
 }
 
-.advantages-accommodation-food-souvenir-title, .advantages-square-road-tourists-title {
+.advantages-accommodation-food-souvenir-title,
+.advantages-square-road-tourists-title {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -184,7 +188,7 @@ body {
   font-family: inherit;
   font-size: 18px;
   line-height: 21px;
-  font-weight: 400px;
+  font-weight: 400;
   background-color: #F2F2F2;
   border: none;
 }
