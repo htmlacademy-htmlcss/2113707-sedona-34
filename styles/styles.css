@@ -53,10 +53,7 @@ body {
 }
 
 .navigation-list {
-  margin: 0;
   margin-left: 30px;
-  padding: 0;
-  list-style: none;
   width: 500px;
 }
 
@@ -174,9 +171,6 @@ body {
 .advantages-accommodation-food-souvenir-list,
 .advantages-square-road-tourists-list {
   display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .advantages-accommodation-food-souvenir-item,
@@ -204,7 +198,8 @@ body {
 }
 
 .advantages-accommodation-food-souvenir-subtitle,
-.advantages-square-road-tourists-subtitle .advantages-accommodation-food-souvenir-number,
+.advantages-square-road-tourists-subtitle
+.advantages-accommodation-food-souvenir-number,
 .advantages-square-road-tourists-number {
   margin: 0;
   margin-left: 85px;
@@ -365,10 +360,6 @@ body {
   margin-left: 70px;
 }
 
-.footer-social-item {
-  list-style: none;
-}
-
 .footer-contacts {
   width: 720px;
 }
@@ -478,9 +469,7 @@ body {
   margin: 0 auto;
   margin-left: 73px;
   margin-right: 71px;
-  padding: 0;
   background-color: #ffffff;
-  list-style: none;
 }
 
 .accommodation-card {
@@ -534,11 +523,6 @@ body {
 
 .pagination {
   display: flex;
-  margin: 0;
-  padding: 0;
-  /* padding-left: 73px;
-  padding-right: 71px; */
-  list-style: none;
   width: 400px;
 }
 
@@ -612,16 +596,22 @@ body {
   flex-grow: 1;
 }
 
-.visually-hidden {
-  /* position: absolute;
+.reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* .visually-hidden {
+  position: absolute;
   width: 1px;
   height: 1px;
-  margin: -1px; */
+  margin: -1px;
   margin: 0;
-  /* border: 0; */
+  border: 0;
   padding: 0;
-  /* white-space: nowrap;
+  white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  overflow: hidden; */
-}
+  overflow: hidden;
+} */
