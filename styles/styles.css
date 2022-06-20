@@ -43,7 +43,7 @@ body {
 /* Шапка - index, catalog */
 
 .main-header {
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 .navigation {
@@ -76,7 +76,7 @@ body {
   font-weight: 700;
   text-align: center;
   color: #000000;
-  background-color: #ffffff;
+  background-color: var(--background-color);
   text-decoration: none;
 }
 
@@ -95,7 +95,7 @@ body {
   line-height: 20px;
   font-weight: 700;
   color: #ffffff;
-  background-color: #756157;
+  background-color: var(--Background-color-button-v1);
   border-radius: 4px;
 }
 
@@ -112,7 +112,7 @@ body {
 .welcome-picture {
   display: flex;
   color: #000000;
-  background-color: #ffffff;
+  background-color: var(--background-color);
   background-image: url("../images/index/background-welcome.jpg");
   background-repeat: no-repeat;
   width: 1200px;
@@ -132,7 +132,7 @@ body {
   margin: 0;
   padding: 0;
   padding-top: 63px;
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 .welcome-hero-title {
@@ -203,7 +203,6 @@ body {
   margin: 0;
   padding: 0;
   margin-bottom: 92px;
-      /* Не могу понять, какие свойства задать контейнеру, что бы при наполнении <p> текстом он не увеличивался вширь, а разрастался вниз */
 }
 
 .advantages-accommodation-food-souvenir-list,
@@ -264,7 +263,7 @@ body {
 }
 
 .advantages-accommodation-food-souvenir-item:nth-child(2) {
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 .advantages-accommodation-food-souvenir-item:first-child,
@@ -289,7 +288,7 @@ body {
   margin: 0 auto;
   padding: 91px 0 93px;
   text-align: center;
-  background-color: #ffffff;
+  background-color: var(--background-color);
   width: 100%;
 }
 
@@ -321,7 +320,7 @@ body {
   line-height: 36px;
   font-weight: 700;
   color: #ffffff;
-  background-color: #756157;
+  background-color: var(--Background-color-button-v1);
   border-radius: 4px;
 }
 
@@ -367,7 +366,7 @@ body {
   line-height: 36px;
   font-weight: 700;
   color: #ffffff;
-  background-color: #82B3D3;
+  background-color: var(--Background-color-button-v2);
 }
 
 .field {
@@ -383,7 +382,7 @@ body {
 
 .footer {
   color: #000000;
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 .footer-container {
@@ -402,14 +401,14 @@ body {
   font-weight: 400;
   text-decoration: none;
   color: #000000;
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 .social-icons {
   text-decoration-line: none;
   text-align: center;
   color: #000000;
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 .footer-social {
@@ -445,7 +444,6 @@ body {
 
 .filters-section {
   display: flex;
-  /* flex-wrap: wrap; */
   flex-direction: column;
   color: #ffffff;
   background-color: #000000;
@@ -468,11 +466,8 @@ body {
 
 .breadcrumbs {
   display: flex;
-  margin: 0;
-  padding: 0;
   margin-bottom: 40px;
   color: #ffffff;
-  list-style-type: none;
 }
 
 .breadcrumbs-link {
@@ -525,7 +520,7 @@ body {
   line-height: 20px;
   font-weight: 700;
   color: #ffffff;
-  background-color: #82B3D3;
+  background-color: var(--Background-color-button-v2);
 }
 
 .reset-button {
@@ -543,7 +538,7 @@ body {
   margin-bottom: 56px;
   padding-left: 72px;
   padding-right: 71px;
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 .catalog-actual-filtration-quantity {
@@ -583,7 +578,7 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 .accommodation-list {
@@ -592,7 +587,7 @@ body {
   margin: 0 auto;
   margin-left: 73px;
   margin-right: 71px;
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 .accommodation-card {
@@ -603,7 +598,7 @@ body {
 .accommodation-card-link {
   text-decoration-line: none;
   color: #000000;
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 .accomodation-card-favorites-button-selected {
@@ -611,7 +606,7 @@ body {
   line-height: 20px;
   font-weight: 700;
   color: #ffffff;
-  background-color: #7DB54F;
+  background-color: var(--Background-color-button-v3);
   text-align: center;
 }
 
@@ -620,7 +615,7 @@ body {
   line-height: 20px;
   font-weight: 700;
   color: #ffffff;
-  background-color: #756157;
+  background-color: var(--Background-color-button-v1);
   text-align: center;
 }
 
@@ -640,7 +635,7 @@ body {
   display: flex;
   padding: 0;
   margin: 96px 71px 25px 73px;
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 .pagination {
@@ -691,7 +686,7 @@ body {
   padding: 94px 0 94px;
   text-align: center;
   color: #000000;
-  background-color: #ffffff;
+  background-color: var(--background-color);
   width: 100%;
 }
 
@@ -721,7 +716,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 .main-container {
@@ -746,4 +741,11 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+:root {
+  --background-color: #ffffff;
+  --Background-color-button-v1: #756157;
+  --Background-color-button-v2: #82B3D3;
+  --Background-color-button-v3:  #7DB54F;
 }
