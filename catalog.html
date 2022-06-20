@@ -58,7 +58,7 @@
         <div class="filters-section">
           <header class="inner-header">
             <h1 class="inner-header-title">Гостиницы Седоны</h1>
-            <ol class="breadcrumbs">
+            <ol class="breadcrumbs reset-list">
               <li class="breadcrumbs-item">
                 <a class="breadcrumbs-link" href="index.html">
                   <span class="visually-hidden">
@@ -79,7 +79,7 @@
             <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
 
               <!--Фильтр Инфраструктура-->
-
+              <div class="filters-wrapper">
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title">Инфраструктура:</legend>
                 <ul class="catalog-filter-list reset-list">
@@ -127,14 +127,17 @@
 
               <!--Фильтр Стоимость-->
 
-              <fieldset class="catalog-filter-group">
+              <fieldset class="catalog-filter-group-price">
                 <legend class="catalog-filter-title">Стоимость,₽:</legend>
                 <label class="control">
                   <input class="control-input" type="range" min="0" max="10000" step="1" value="9000">
                 </label>
               </fieldset>
+              <div class="filter-buttons-wrapper">
               <button class="button accept-button" type="submit">Применить</button>
               <button class="button reset-button" type="reset">Сбросить</button>
+              </div>
+              </div>
             </form>
           </section>
         </div>
@@ -247,7 +250,7 @@
 
           <form class="accommodation-on-page-form" action="https://echo.htmlacademy.ru/" method="post">
             <label for="accommodation-on-page">Гостиниц на странице: </label>
-            <select class="accommodation-on-page" name="accommodation-on-page" id="accommodation-on-page">
+            <select class="accommodation-on-page-select" name="accommodation-on-page" id="accommodation-on-page">
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
@@ -257,7 +260,6 @@
         </div>
 
         <!--Подписка-->
-        <div class="subscription-catalog-container">
           <section class="subscription-catalog">
             <h2 class="visually-hidden">Подписка</h2>
             <p class="subscription-title-catalog">Подпишитесь на рассылку</p>
@@ -270,7 +272,6 @@
               <button class="button newsletter-button" type="submit">Подписаться</button>
             </form>
           </section>
-        </div>
       </main>
 
       <!--Футер-->
