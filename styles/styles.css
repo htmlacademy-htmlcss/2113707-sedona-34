@@ -216,7 +216,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 400px;
-  min-height: 400px;
+  min-height: 384px;
   padding: 0 85px;
 }
 
@@ -452,6 +452,8 @@ body {
   background-size: 100% auto;
   padding: 70px;
   padding-top: 35px;
+  margin: 0;
+  margin-bottom: 55px;
 }
 
 .inner-header-title {
@@ -534,7 +536,6 @@ body {
 
 .catalog-sorter-wrapper {
   display: flex;
-  margin-top: 55px;
   margin-bottom: 56px;
   padding-left: 72px;
   padding-right: 71px;
@@ -574,31 +575,46 @@ body {
 
 /* Секция с гостиницами - catalog */
 
-.accommodation-wrapper {
-  display: flex;
-  margin: 0;
-  padding: 0;
+.accommodation-list {
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
+  column-gap: 18px;
+  justify-content: center;
   background-color: var(--background-color);
 }
 
-.accommodation-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  margin-left: 73px;
-  margin-right: 71px;
-  background-color: var(--background-color);
+.accommodation-reset-margin.accommodation-reset-margin {
+  margin-bottom: 96px;
 }
 
 .accommodation-card {
-  margin: 0;
+  display: grid;
   padding: 20px;
+  grid-template-columns: 140px 140px;
+  grid-template-rows: min-content min-content min-content min-content;
+  column-gap: 20px;
+  row-gap: 16px;
+  background-color: var(--background-color);
+}
+
+.acommodation-card-image {
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.acommodation-card-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+  background-color: var(--background-color);
 }
 
 .accommodation-card-link {
+  display: grid;
+  row-gap: 16px;
+  grid-column: 1/-1;
   text-decoration-line: none;
-  color: #000000;
-  background-color: var(--background-color);
 }
 
 .accomodation-card-favorites-button-selected {
@@ -608,25 +624,32 @@ body {
   color: #ffffff;
   background-color: var(--Background-color-button-v3);
   text-align: center;
+  min-height: 37px;
 }
 
 .accommodation-card-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
   color: #ffffff;
   background-color: var(--Background-color-button-v1);
-  text-align: center;
-}
+  min-height: 37px;
+  }
 
 .accommodation-actual-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
   color: #000000;
   background-color: #F2F2F2;
-  text-align: center;
   text-transform: uppercase;
+  min-height: 37px;
 }
 
 /* Паггинация под гостиницами - catalog */
@@ -634,7 +657,9 @@ body {
 .pagination-wrapper {
   display: flex;
   padding: 0;
-  margin: 96px 71px 25px 73px;
+  margin-left: 73px;
+  margin-right: 71px;
+  margin-bottom: 25px;
   background-color: var(--background-color);
 }
 
