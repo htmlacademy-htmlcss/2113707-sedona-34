@@ -22,10 +22,10 @@
           </a>
           <ul class="navigation-list reset-list">
             <li class="navigation-item">
-              <a class="navigation-link navigation-link-current" href="index.html">Главная</a>
+              <a class="navigation-link navigation-link-current-page" href="index.html">Главная</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="index.html">О Седоне</a>
+              <a class="navigation-link" href="#index-anchor">О Седоне</a>
             </li>
             <li class="navigation-item">
               <a class="navigation-link" href="catalog.html">Гостиницы</a>
@@ -34,20 +34,22 @@
           <ul class="navigation-user reset-list">
             <li class="navigation-item">
               <a class="navigation-link" href="#">
+                <svg class="navigation-icon" aria-hidden="true" focusable="false" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m18.16 17.05-3.71-3.7c1-1.3 1.7-3 1.7-4.9 0-4.4-3.6-8-8.02-8a8.12 8.12 0 0 0-8.02 8.1c0 4.4 3.6 8 8.02 8 1.8 0 3.51-.6 4.91-1.7l3.71 3.7 1.4-1.5Zm-10.03-2.5c-3.3 0-6.02-2.7-6.02-6a6.03 6.03 0 0 1 12.04 0c0 3.3-2.71 6-6.02 6Z" fill="#000"/></svg>
                 <span class="visually-hidden">
                   Поиск
                 </span>
               </a>
             </li>
-            <li class="navigation-item">
+            <li class="navigation-item item-favorites">
               <a class="navigation-link" href="#">
+                <svg class="navigation-icon" aria-hidden="true" focusable="false" width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.58 17c-.3 0-.6-.1-.8-.4-5.42-6.1-6.72-7.5-7.03-7.9A5.4 5.4 0 0 1 6.16 0c1.31 0 2.51.5 3.52 1.3a5.47 5.47 0 0 1 9.03 4.1c0 1.3-.5 2.5-1.31 3.4l-7.02 7.9c-.2.2-.4.3-.8.3ZM3.56 7.5c.3.4 3.51 4 6.12 6.9l6.21-7c.5-.5.7-1.2.7-2 0-1.8-1.5-3.3-3.3-3.3-1 0-2 .5-2.71 1.3-.3.3-.6.4-.9.4-.3 0-.6-.2-.8-.4a3.7 3.7 0 0 0-2.71-1.3c-1.8 0-3.31 1.5-3.31 3.3-.1.9.3 1.6.7 2.1-.1 0-.1 0 0 0Z" fill="#000"/></svg>
                 <span class="visually-hidden">
                   Избранное
                 </span>
               </a>
             </li>
             <li class="navigation-item navigation-item-button">
-              <button class="button navigation-button" type="button">Хочу сюда!</button>
+              <button class="button navigation-button button-type-1" type="button">Хочу сюда!</button>
             </li>
           </ul>
         </nav>
@@ -59,6 +61,7 @@
         <div class="welcome-picture">
           <img class="welcome-picture-text" src="images/welcome.svg" width="458" height="352"
             alt="Welcome to the gorgeous Sedona 'because the Grand canyon sucks!'">
+          <svg class="divider-pic" width="1200" height="57" viewBox="0 0 1200 57" aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 57V0l250 24V0l350 57L950 0v24l250-24v57H0Z" fill="#fff"/></svg>
         </div>
 
         <!--Приветственной текст SEDONA-->
@@ -68,7 +71,7 @@
           <p class="welcome-hero-subtitle">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
         </section>
 
-        <h2 class="visually-hidden">Преимущества</h2>
+        <h2 id="index-anchor" class="visually-hidden">Преимущества</h2>
 
         <!--Преимущество №1 Настоящий городок-->
 
@@ -80,23 +83,26 @@
           </div>
           <img class="advantage-true-city-hotel-pic" src="/images/index/sedona-photo.jpg" width="800" height="384"
             alt="Отель с рестораном в городе Седона">
-        </section>
+         </section>
 
         <!--Преимущества: Жилье Еда Сувениры-->
 
         <section class="advantages-accommodation-food-souvenir">
           <ul class="advantages-accommodation-food-souvenir-list reset-list">
             <li class="advantages-accommodation-food-souvenir-item">
+              <svg class="accommodation-svg" aria-hidden="true" focusable="false" width="76" height="73" viewBox="0 0 76 73" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M30.15 65.5h16V41.7h-16v23.8Zm2.9-20.9h10.1v18h-10.1v-18Z" fill="#83B3D3"/><path d="m73.25 39.8 2.1-2.1-9.9-9.9V.5h-13.9v13.6L37.95.5.65 37.7l2.1 2.1 7.8-7.8v37.6h-4v2.9h63.9v-2.9h-5.1V32l7.9 7.8Zm-10.8 29.8h-49V29l24.5-24.4L62.45 29v40.6Zm0-44.7-7.9-7.9V3.4h7.9v21.5Z" fill="#83B3D3"/><path d="M30.35 27.6c0 4.3 3.5 7.7 7.7 7.7 4.3 0 7.8-3.5 7.8-7.7 0-4.3-3.5-7.7-7.8-7.7a7.7 7.7 0 0 0-7.7 7.7Zm7.8-5a5 5 0 0 1 5 4.9c0 2.7-2.2 4.9-5 4.9a5 5 0 0 1-5-4.9c0-2.7 2.2-4.9 5-4.9ZM20.55 41.7h-3v3.9h3v-3.9ZM26.45 41.7h-3v3.9h3v-3.9ZM20.55 47.7h-3v3.9h3v-3.9ZM26.45 47.7h-3v3.9h3v-3.9ZM52.45 41.7h-3v3.9h3v-3.9ZM58.35 41.7h-3v3.9h3v-3.9ZM52.45 47.7h-3v3.9h3v-3.9ZM58.35 47.7h-3v3.9h3v-3.9Z" fill="#83B3D3"/></svg>
               <h3 class="advantages-accommodation-food-souvenir-title">Жильё</h3>
               <p class="advantages-accommodation-food-souvenir-subtitle">Рекомендуем пожить<br> в настоящем мотеле,<br> всё как
                 в кино!</p>
             </li>
             <li class="advantages-accommodation-food-souvenir-item">
+              <svg class="food-svg" aria-hidden="true" focusable="false" width="75" height="71" viewBox="0 0 75 71" xmlns="http://www.w3.org/2000/svg"><path d="M70.55 47.2H4.75c-2.3 0-4.1 1.9-4.1 4.3V55c0 2.4 1.9 4.3 4.1 4.3h.9v1.1c0 5.5 4.3 10.1 9.6 10.1h44.6c5.3 0 9.6-4.5 9.6-10.1v-1.1h.9c2.3 0 4.1-1.9 4.1-4.3v-3.5a4 4 0 0 0-3.9-4.3Zm-3.9 13.2c0 3.9-3 7-6.7 7h-44.7c-3.7 0-6.7-3.2-6.7-7v-1.1h58.1v1.1Zm5.1-5.4c0 .7-.6 1.3-1.2 1.3H4.65c-.7 0-1.2-.6-1.2-1.3v-3.5c0-.7.6-1.3 1.2-1.3h65.8c.7 0 1.2.6 1.2 1.3.1 0 .1 3.5.1 3.5ZM16.25 38.9l5.4 4.1 5.3-4.1 5.3 4.1 5.3-4.1 5.4 4.1 5.3-4.1 5.3 4.1 5.4-4.1 5.3 4.1 6.2-4.7-1.7-2.5-4.5 3.4-5.3-4.1-5.4 4.1-5.3-4.1-5.3 4.1-5.4-4.1-5.3 4.1-5.3-4.1-5.3 4.1-5.4-4.1-5.3 4.1-4.5-3.4-1.7 2.5 6.2 4.7 5.3-4.1ZM8.65 32h60.8c0-.6.1-1.2.1-1.9v-1.2C68.85 13.2 54.85.5 37.65.5c-17.3 0-31.3 12.7-32 28.5v1.2c0 .6 0 1.3.1 1.9h2.9V32Zm29-28.5c15.6 0 28.4 11.3 29 25.5h-58c.6-14.1 13.4-25.5 29-25.5Z"/><path d="M37.65 17.8c1.05 0 1.9-.9 1.9-2s-.85-2-1.9-2c-1.05 0-1.9.9-1.9 2s.85 2 1.9 2ZM29.85 12.7c1.05 0 1.9-.9 1.9-2s-.85-2-1.9-2c-1.05 0-1.9.9-1.9 2s.85 2 1.9 2ZM45.35 12.7c1.05 0 1.9-.9 1.9-2s-.85-2-1.9-2c-1.05 0-1.9.9-1.9 2s.85 2 1.9 2Z"/></svg>
               <h3 class="advantages-accommodation-food-souvenir-title">Еда</h3>
               <p class="advantages-accommodation-food-souvenir-subtitle">Всегда заказывайте<br> топовый фирменный бургер,<br> вы
                 не разочаруетесь!</p>
             </li>
             <li class="advantages-accommodation-food-souvenir-item">
+              <svg class="souvenir-svg" aria-hidden="true" focusable="false" width="65" height="77" viewBox="0 0 65 77" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M61.75 22.95h-24.8c13.8-6.9 14.9-11.3 14.4-13.7-1.2-4-5.7-7-10-5.4-5.6 2.1-7.1 10.4-8.6 16.4-2-6.1-3.8-13.8-8.2-17.7-1.3-1.1-3.1-2.3-5.8-2-4 .4-9.8 5.4-7.5 11 2.3 5.4 9.7 8.8 14.6 11.5H3.55a2.9 2.9 0 0 0-2.9 2.9v11.3c0 1.6 1.3 2.9 2.9 2.9h.3v36.3h57.8v-36.4h.1c1.6 0 2.9-1.3 2.9-2.9v-11.3c0-1.6-1.3-2.9-2.9-2.9Zm-18.7-16.6c2.1-.3 5 1.3 5.3 3.2.4 2.8-3.4 5.3-5.1 6.4-2.5 1.7-4.9 2.6-7.3 4.1.9-3.7 2.5-13 7.1-13.7Zm-22.9 10c-2.2-1.5-6.5-4.4-6.4-7.8.1-3.6 5.7-6.6 8.8-3.9 3.9 3.4 5.7 11.1 7.1 16.6-3.2-1.5-6.3-2.8-9.5-4.9Zm6 57.1H6.75v-33.4h19.4v33.4Zm0-36.5H3.65v-11h22.5v11Zm10.2 0v36.5h-7.2v-47.4h7.2v10.9Zm22.3 36.5h-19.4v-33.4h19.4v33.4Zm2.9-36.5h-22.3v-11h22.3v11Z" fill="#83B3D3"/></svg>
               <h3 class="advantages-accommodation-food-souvenir-title">Сувениры</h3>
               <p class="advantages-accommodation-food-souvenir-subtitle">Не только китайского,<br> но и настоящего местного<br>
                 производства!</p>
@@ -143,9 +149,8 @@
           <section class="accommodation-search">
             <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
             <p class="accommodation-search-title">Заинтересовались?</p>
-            <p class="accommodation-search-subtitle">Укажите предполагаемые даты поездки, и мы покажем вам лучшие
-              предложения гостиниц в Седоне</p>
-            <button class="button accommodation-search-button" type="button">Поиск гостиницы в Седоне</button>
+            <p class="accommodation-search-subtitle">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+            <button class="button accommodation-search-button button-type-1" type="button">Поиск гостиницы в Седоне</button>
           </section>
 
         <!--Подписка-->
@@ -158,7 +163,7 @@
               <label for="newsletter-email">Email</label>
               <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
                 required>
-              <button class="button newsletter-button" type="submit">Подписаться</button>
+              <button class="button newsletter-button button-type-2" type="submit">Подписаться</button>
             </form>
           </section>
       </main>
@@ -168,23 +173,25 @@
       <footer class="footer">
 
         <!--Социальные сети-->
-        <div class="footer-container">
 
           <section class="footer-social">
             <h2 class="visually-hidden">Социальные сети</h2>
             <ul class="footer-social-list reset-list">
               <li class="footer-social-item">
                 <a class="social-icons" href="https://vk.com/htmlacademy">
+                  <svg class="social-media" width="24" height="15" aria-hidden="true" focusable="false" viewBox="0 0 24 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.45 1.45c.17-.55 0-.95-.8-.95h-2.62c-.67 0-.98.35-1.14.73 0 0-1.34 3.2-3.23 5.27-.61.6-.89.8-1.22.8-.17 0-.42-.2-.42-.74V1.45c0-.66-.18-.95-.74-.95H9.15c-.42 0-.67.3-.67.6 0 .61.95.76 1.05 2.5v3.8c0 .84-.16.99-.5.99-.88 0-3.05-3.21-4.33-6.89-.25-.71-.5-1-1.17-1H.9c-.75 0-.9.35-.9.73 0 .68.89 4.07 4.14 8.55 2.18 3.06 5.23 4.72 8.01 4.72 1.67 0 1.88-.37 1.88-1v-2.32c0-.73.16-.88.69-.88.38 0 1.05.2 2.61 1.67 1.78 1.75 2.07 2.53 3.08 2.53h2.62c.75 0 1.13-.37.91-1.1-.24-.72-1.09-1.77-2.21-3.02-.62-.7-1.54-1.47-1.81-1.86-.4-.49-.28-.7 0-1.14 0 0 3.2-4.43 3.53-5.93Z"/></svg>
                   <span class="visually-hidden">Vkontakte</span>
                 </a>
               </li>
               <li class="footer-social-item">
                 <a class="social-icons" href="https://t.me/htmlacademy">
+                  <svg class="social-media" width="18" height="16" aria-hidden="true" focusable="false" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.79.6.84 6.75c-1.09.43-1.08 1.04-.2 1.31l4.1 1.28 9.47-5.98c.44-.27.85-.12.52.18l-7.68 6.92-.28 4.22c.41 0 .6-.19.83-.41l1.99-1.93 4.13 3.05c.77.42 1.31.2 1.5-.7l2.72-12.8C18.22.77 17.5.27 16.79.59Z"/></svg>
                   <span class="visually-hidden">Telegram</span>
                 </a>
               </li>
               <li class="footer-social-item">
                 <a class="social-icons" href="https://www.youtube.com/user/htmlacademyru">
+                  <svg class="social-media" width="22" height="17" aria-hidden="true" focusable="false" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.6 0H3.18C1.31 0 0 1.6 0 3.4v10.1C0 15.4 1.31 17 3.17 17h15.66c1.64 0 3.17-1.6 3.17-3.4V3.4C21.78 1.6 20.47 0 18.6 0ZM7.67 12.54V4.46L15 8.5l-7.33 4.04Z"/></svg>
                   <span class="visually-hidden">Youtube</span>
                 </a>
               </li>
@@ -202,13 +209,12 @@
 
           <section class="footer-logo">
             <a class="footer-logo-htmlacademy" href="https://htmlacademy.ru/">
-              <img class="main-footer-logo" src="/images/logo-html-academy.svg" alt="Логотип htmlacademy">
+              <svg class="html-logo" width="115" height="33" aria-hidden="true" focusable="false" viewBox="0 0 115 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 12.9v2.6h2.5v-2.6H0ZM11.6 4.5c-1.6 0-2.8.7-3.6 1.7h-.1V0h-2v15.5h2v-5.3c0-2.1 1.3-3.6 3.3-3.6 1.8 0 2.9 1.4 2.9 3.2v5.7h2V9.4c.1-3-1.8-4.9-4.5-4.9ZM26.6 4.8h-4.8V1.1h-2v3.8h-1.9v2h1.9v6c0 1.7 1 2.7 2.7 2.7h4.1v-2h-3.7c-.7 0-1.1-.4-1.1-1.1V6.8h4.8v-2ZM41.1 4.6c-1.6 0-2.9.8-3.5 2.1h-.1c-.6-1.2-1.8-2.1-3.4-2.1-1.4 0-2.5.8-3.1 1.8h-.1V4.8H29v10.6h2V10c0-2 1-3.5 2.6-3.5 1.5 0 2.4 1 2.4 2.6v6.3h2V9.8c0-2.4 1.4-3.3 2.6-3.3 1.5 0 2.4 1 2.4 2.6v6.3h2V8.9c.1-2.5-1.4-4.3-3.9-4.3ZM47.8 12.7c0 1.7 1 2.7 2.8 2.7h2v-2h-1.7c-.7 0-1.1-.4-1.1-1.1V0h-2v12.7ZM28.9 19.7c-.9-1.1-2.2-1.8-3.9-1.8-3.1 0-5.4 2.3-5.4 5.6s2.3 5.6 5.4 5.6c1.8 0 3-.8 3.8-1.9h.1v1.6h2V18.2h-2v1.5Zm-3.6 7.4c-2.2 0-3.6-1.6-3.6-3.6s1.4-3.6 3.6-3.6 3.6 1.6 3.6 3.6c0 1.9-1.4 3.6-3.6 3.6ZM44.2 22c-.5-2.4-2.6-4.1-5.4-4.1a5.4 5.4 0 0 0-5.6 5.6c0 3.1 2.2 5.6 5.6 5.6 2.8 0 4.9-1.8 5.4-4.2h-2.1a3.4 3.4 0 0 1-3.3 2.3c-2.2 0-3.6-1.6-3.6-3.6s1.4-3.6 3.6-3.6c1.6 0 2.8 1 3.3 2.2h2.1V22ZM55.1 19.7c-.9-1.1-2.2-1.8-3.9-1.8-3.1 0-5.4 2.3-5.4 5.6s2.3 5.6 5.4 5.6c1.8 0 3-.8 3.8-1.9h.1v1.6h2V18.2h-2v1.5Zm-3.6 7.4c-2.2 0-3.6-1.6-3.6-3.6s1.4-3.6 3.6-3.6 3.6 1.6 3.6 3.6c0 1.9-1.5 3.6-3.6 3.6ZM68.7 19.8c-.9-1.1-2.2-1.9-3.9-1.9-3.1 0-5.4 2.3-5.4 5.6s2.2 5.6 5.4 5.6c1.7 0 3-.8 3.8-1.8h.1v1.5h2V13.4h-2v6.4Zm-3.6 7.3c-2.2 0-3.6-1.6-3.6-3.6s1.4-3.6 3.6-3.6 3.6 1.6 3.6 3.6c-.1 2-1.5 3.6-3.6 3.6ZM78.3 17.9c-3.3 0-5.5 2.5-5.5 5.6 0 3 2.1 5.6 5.5 5.6 2.5 0 4.5-1.3 5.2-3.6h-2.1c-.5 1-1.6 1.6-3 1.6-1.9 0-3.3-1.3-3.4-2.9h8.8c.2-3.6-2-6.3-5.5-6.3Zm0 1.9c1.7 0 3 1 3.3 2.6h-6.5c.3-1.5 1.5-2.6 3.2-2.6ZM98.2 17.9c-1.6 0-2.9.8-3.6 2h-.1c-.6-1.2-1.8-2-3.4-2-1.4 0-2.5.7-3.1 1.8v-1.5h-1.9v10.6h2v-5.4c0-2 1-3.4 2.6-3.5 1.5 0 2.4 1 2.4 2.6v6.3h2v-5.6c0-2.4 1.4-3.3 2.6-3.3 1.5 0 2.4 1 2.4 2.6v6.3h2v-6.5c.1-2.6-1.4-4.4-3.9-4.4ZM109.4 27l-3.6-8.9h-2.2l4.8 11.6c-.3.9-.7 1.2-1.7 1.2h-2.5v2h2.5c1.8 0 2.8-.8 3.5-2.6l4.7-12.2h-2.1l-3.4 8.9Z"/></svg>
+              <span class="visually-hidden">Логотип htmlacadem</span>
             </a>
           </section>
         </div>
       </footer>
-
-    </div>
   </body>
 
 </html>
