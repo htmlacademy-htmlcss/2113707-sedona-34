@@ -631,9 +631,8 @@ body {
   cursor: pointer;
 }
 
-
 .modal-close-cross {
-fill: #000000;
+  fill: #000000;
 }
 
 .modal-close-button:hover {
@@ -671,11 +670,6 @@ fill: #000000;
   position: relative;
 }
 
-.field-group:nth-child(5),
-.field-group:nth-child(6) {
-justify-content: stretch;
-}
-
 .date-from,
 .date-to,
 .people-counter-adult,
@@ -693,8 +687,8 @@ justify-content: stretch;
 }
 
 .people-counter-adult {
- margin-right: 64px;
- position: relative;
+  margin-right: 64px;
+  position: relative;
 }
 
 .people-counter-children {
@@ -704,10 +698,6 @@ justify-content: stretch;
   display: flex;
   align-items: center;
   position: relative;
-}
-
-.people-counter-form-field:nth-of-type(1) {
-margin-right: 56px;
 }
 
 .people-counter-button {
@@ -853,7 +843,6 @@ margin-right: 56px;
   display: block;
   position: absolute;
 }
-/* #83B3D3 */
 
 .tooltip-icon {
   width: 100%;
@@ -965,10 +954,8 @@ margin-right: 56px;
   color: rgba(255, 255, 255, 0.3);
 }
 
-
 .filters-wrapper {
   display: flex;
-  /* justify-content: space-between; */
 }
 
 .catalog-filter-group {
@@ -1018,8 +1005,7 @@ margin-right: 56px;
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* Не работает! */
-/* для круглых обводка !внутри */
+/* для круглых обводка внутри */
 .control:focus .control-mark {
   background-color: rgba(255, 255, 255, 0.6);
   outline: 3px solid rgba(131, 179, 211, 1);
@@ -1087,7 +1073,7 @@ margin-right: 56px;
 
 .range-toggle:hover,
 .range-toggle:focus {
- box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 .range-toggle:focus {
@@ -1095,7 +1081,7 @@ margin-right: 56px;
 }
 
 .range-toggle:active {
-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
 }
 
 .toggle-min {
@@ -1498,9 +1484,9 @@ box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
 }
 
 .accommodation-on-page-select:disabled {
- color: rgba(0, 0, 0, 0.3);
- border: 2px solid rgba(0, 0, 0, 0.3);
- background-image: url("/images/icons/icon-arrow-downward-opacity3.svg");
+  color: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  background-image: url("/images/icons/icon-arrow-downward-opacity3.svg");
 }
 
 /* Секция подписки - catalog */
