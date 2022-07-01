@@ -55,7 +55,6 @@ body {
   background-color: #6C9E42;
 }
 
-/*состояние disabled только для форм! */
 .newsletter-button:disabled,
 .accept-button:disabled {
   background-color: #E5E5E5;
@@ -124,13 +123,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  right: 0;
-  bottom: 100%;
+  right: -2px;
+  bottom: -2px;
   content: "12";
   width: 20px;
   height: 20px;
   font-size: 10px;
   line-height: 13px;
+  letter-spacing: -0.1em;
   border-radius: 50%;
   color: #ffffff;
   background-color: #7DB54F;
@@ -459,6 +459,7 @@ body {
 
 .newsletter-form {
   display: flex;
+  justify-content: center;
 }
 
 .newsletter-button {
@@ -476,12 +477,12 @@ body {
 .field {
   font-family: inherit;
   font-size: 18px;
-  padding: 20px 22px 19px;
+  padding: 20px 22px 20px;
   line-height: 21px;
   font-weight: 400;
   background-color: #F2F2F2;
   border: none;
-  min-width: 600px;
+  min-width: 560px;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -771,6 +772,10 @@ body {
   appearance: none;
 }
 
+.people-counter-form-field:nth-of-type(1) {
+  margin-right: 56px;
+}
+
 .date-form-field:hover {
   background-color: #E6E6E6;
 }
@@ -794,6 +799,10 @@ body {
 .people-counter-form-field::-webkit-inner-spin-button {
   appearance: none;
   margin: 0;
+}
+
+.people-counter-form-field[type="number"] {
+  -moz-appearance: textfield;
 }
 
 .people-counter-form-field {
@@ -831,6 +840,20 @@ body {
   margin-top: 40px;
 }
 
+.modal-search-button:hover {
+  background-color: #68A2CA;
+}
+
+.modal-search-button:focus {
+  outline: 3px solid #756257;
+}
+
+.modal-search-button:active {
+  outline: none;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
 /* tooltip */
 
 .tooltip-toggle {
@@ -853,13 +876,14 @@ body {
 
 .tooltip-toggle:hover .tooltip-icon {
   fill: #68A2CA;
+  cursor: pointer;
 }
 
 .tooltip-text {
   background-color: #333333;
   color: #ffffff;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 22px;
   font-weight: 400;
   text-transform: none;
   padding: 15px 18px 18px 22px;
@@ -903,7 +927,7 @@ body {
   background-size: 100% auto;
   padding: 70px;
   padding-top: 35px;
-  margin-bottom: 55px;
+  margin-bottom: 52px;
 }
 
 .inner-header-title {
@@ -1000,12 +1024,10 @@ body {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-/* Для круглых - белый фон */
 .control:active .control-mark {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* для круглых обводка внутри */
 .control:focus .control-mark {
   background-color: rgba(255, 255, 255, 0.6);
   outline: 3px solid rgba(131, 179, 211, 1);
@@ -1160,6 +1182,10 @@ body {
   margin: 0;
 }
 
+.range-input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 /* Кнопки в фильтрах */
 
 .filter-buttons-wrapper {
@@ -1270,6 +1296,7 @@ body {
   font-weight: 400;
   min-width: 290px;
   border: 2px solid #E5E5E5;
+  background-color: #ffffff;
   border-radius: 4px;
   background-image: url("/images/icons/icon-arrow-downward.svg");
   background-repeat: no-repeat;
@@ -1289,9 +1316,9 @@ body {
 }
 
 .select-control:disabled {
- color: rgba(0, 0, 0, 0.3);
- border: 2px solid rgba(0, 0, 0, 0.3);
- background-image: url("/images/icons/icon-arrow-downward-opacity3.svg");
+  color: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  background-image: url("/images/icons/icon-arrow-downward-opacity3.svg");
 }
 
 /* Секция с гостиницами - catalog */
@@ -1450,14 +1477,15 @@ body {
   background-color: #F2F2F2;
 }
 
-.accommodation-on-page-form {
-  margin-left: auto;
-  align-self: center;
+.accommodation-form-label {
+  margin-left: 270px;
+  display: flex;
+  align-items: center;
 }
 
 .accommodation-on-page-select {
-  min-width: 160px;
-  min-height: 50px;
+  width: 160px;
+  height: 52px;
   font-family: inherit;
   font-size: 18px;
   line-height: 21px;
@@ -1466,6 +1494,7 @@ body {
   margin-left: 50px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
+  background-color: #ffffff;
   background-image: url("/images/icons/icon-arrow-downward.svg");
   background-repeat: no-repeat;
   background-position: right 16px center;
