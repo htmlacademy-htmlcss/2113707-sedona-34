@@ -682,7 +682,7 @@ body {
 
 .date-form-field {
   padding: 0 19px;
-  background-image: url("/images/icons/modal-icon-date.svg");
+  background-image: url("../images/icons/modal-icon-date.svg");
   background-repeat: no-repeat;
   background-position: right 17px center;
 }
@@ -904,7 +904,7 @@ body {
 
 .tooltip-text:after {
   content:'';
-  background-image: url("/images/icons/tooltip-arrow.svg");
+  background-image: url("../images/icons/tooltip-arrow.svg");
   width: 19px;
   height: 9px;
   position: absolute;
@@ -1037,7 +1037,7 @@ body {
   position: absolute;
   top: -2px;
   left: 4px;
-  content: url("/images/icons/icon-checkbox.svg");
+  content: url("../images/icons/icon-checkbox.svg");
   display: block;
 }
 
@@ -1143,7 +1143,7 @@ body {
   border-right: 1px solid #ffffff;
   padding-left: 19px;
   padding-right: 19px;
-  background-image: url("/images/icons/icon-price-from.svg");
+  background-image: url("../images/icons/icon-price-from.svg");
   background-repeat: no-repeat;
   background-position: right 14px center;
 }
@@ -1154,7 +1154,7 @@ body {
   border-left: 1px solid #ffffff;
   padding-left: 17px;
   padding-right: 17px;
-  background-image: url("/images/icons/icon-price-to.svg");
+  background-image: url("../images/icons/icon-price-to.svg");
   background-repeat: no-repeat;
   background-position: right 14px center;
 }
@@ -1298,7 +1298,7 @@ body {
   border: 2px solid #E5E5E5;
   background-color: #ffffff;
   border-radius: 4px;
-  background-image: url("/images/icons/icon-arrow-downward.svg");
+  background-image: url("../images/icons/icon-arrow-downward.svg");
   background-repeat: no-repeat;
   background-position: right 16px center;
   appearance: none;
@@ -1318,7 +1318,7 @@ body {
 .select-control:disabled {
   color: rgba(0, 0, 0, 0.3);
   border: 2px solid rgba(0, 0, 0, 0.3);
-  background-image: url("/images/icons/icon-arrow-downward-opacity3.svg");
+  background-image: url("../images/icons/icon-arrow-downward-opacity3.svg");
 }
 
 /* Секция с гостиницами - catalog */
@@ -1388,7 +1388,7 @@ body {
 }
 
 .rating-area-two {
-  background-image: url("/images/icons/icon-star.svg");
+  background-image: url("../images/icons/icon-star.svg");
   width: 42px;
   height: 17px;
   background-repeat: space;
@@ -1396,7 +1396,7 @@ body {
 }
 
 .rating-area-three {
-  background-image: url("/images/icons/icon-star.svg");
+  background-image: url("../images/icons/icon-star.svg");
   width: 66px;
   height: 17px;
   background-repeat: space;
@@ -1404,7 +1404,7 @@ body {
 }
 
 .rating-area-four {
-  background-image: url("/images/icons/icon-star.svg");
+  background-image: url("../images/icons/icon-star.svg");
   width: 88px;
   height: 17px;
   background-repeat: space;
@@ -1495,7 +1495,7 @@ body {
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   background-color: #ffffff;
-  background-image: url("/images/icons/icon-arrow-downward.svg");
+  background-image: url("../images/icons/icon-arrow-downward.svg");
   background-repeat: no-repeat;
   background-position: right 16px center;
   appearance: none;
@@ -1515,7 +1515,7 @@ body {
 .accommodation-on-page-select:disabled {
   color: rgba(0, 0, 0, 0.3);
   border: 2px solid rgba(0, 0, 0, 0.3);
-  background-image: url("/images/icons/icon-arrow-downward-opacity3.svg");
+  background-image: url("../images/icons/icon-arrow-downward-opacity3.svg");
 }
 
 /* Секция подписки - catalog */
