@@ -55,7 +55,6 @@ body {
   background-color: #6C9E42;
 }
 
-/*состояние disabled только для форм! */
 .newsletter-button:disabled,
 .accept-button:disabled {
   background-color: #E5E5E5;
@@ -113,7 +112,6 @@ body {
   bottom: 0;
   left: 0;
   margin: auto;
-  padding: 8px;
 }
 
 .item-favorites {
@@ -803,6 +801,10 @@ body {
   margin: 0;
 }
 
+.people-counter-form-field[type="number"] {
+  -moz-appearance: textfield;
+}
+
 .people-counter-form-field {
   width: 133px;
   text-align: center;
@@ -1180,6 +1182,10 @@ body {
   margin: 0;
 }
 
+.range-input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 /* Кнопки в фильтрах */
 
 .filter-buttons-wrapper {
@@ -1290,6 +1296,7 @@ body {
   font-weight: 400;
   min-width: 290px;
   border: 2px solid #E5E5E5;
+  background-color: #ffffff;
   border-radius: 4px;
   background-image: url("/images/icons/icon-arrow-downward.svg");
   background-repeat: no-repeat;
@@ -1470,14 +1477,15 @@ body {
   background-color: #F2F2F2;
 }
 
-.accommodation-on-page-form {
-  margin-left: auto;
-  align-self: center;
+.accommodation-form-label {
+  margin-left: 270px;
+  display: flex;
+  align-items: center;
 }
 
 .accommodation-on-page-select {
-  min-width: 160px;
-  min-height: 50px;
+  width: 160px;
+  height: 52px;
   font-family: inherit;
   font-size: 18px;
   line-height: 21px;
@@ -1486,6 +1494,7 @@ body {
   margin-left: 50px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
+  background-color: #ffffff;
   background-image: url("/images/icons/icon-arrow-downward.svg");
   background-repeat: no-repeat;
   background-position: right 16px center;
